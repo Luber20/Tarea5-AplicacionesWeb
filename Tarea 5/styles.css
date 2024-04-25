@@ -1,56 +1,56 @@
+/* Estilos generales para el cuerpo de la página */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-image: url('ima.jpg');
-    background-size: cover;
-    background-position: center;
-    color: #fff;
-  }
-  
-  .container {
-    max-width: 600px;
-    margin: 50px auto;
-    padding: 20px;
-    background-color: rgba(0, 0, 0, 0.86);
-    border-radius: 8px;
-    box-shadow: 0 2px 5px  rgba(0, 0, 0, 0);
-  }
-  
-  h1 {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  .form-group {
-    margin-bottom: 15px;
-  }
-  
-  label {
-    display: block;
-    margin-bottom: 5px;
-  }
-  
-  input[type="text"],
-  input[type="email"],
-  .btn-submit {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    background-color: rgba(255, 255, 255, 0.8);
-  }
-  
-  input[type="submit"] {
-    background-color: #4caf51;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  input[type="submit"]:hover {
-    background-color: #45a049;
-  }
+  font-family: Arial, sans-serif; /* Tipo de fuente y familia utilizada */
+  margin: 0; /* Elimina el margen predeterminado del cuerpo */
+  padding: 0; /* Elimina el relleno predeterminado del cuerpo */
+  background-image: url('ima.jpg'); /* Imagen de fondo */
+  background-size: cover; /* Ajusta la imagen de fondo para cubrir todo el cuerpo */
+  background-position: center; /* Centra la imagen de fondo */
+  color: #fff; /* Color del texto */
+}
+
+/* Estilos para el contenedor principal */
+.container {
+  max-width: 600px; /* Ancho máximo del contenedor */
+  margin: 50px auto; /* Margen superior e inferior automático y centrado horizontalmente */
+  padding: 20px; /* Relleno interno del contenedor */
+  background-color: rgba(0, 0, 0, 0.86); /* Color de fondo con transparencia */
+  border-radius: 8px; /* Borde redondeado */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0); /* Sombra del contenedor */
+}
+
+/* Estilos para el título principal */
+h1 {
+  text-align: center; /* Alineación del texto al centro */
+  margin-bottom: 20px; /* Margen inferior */
+}
+
+/* Estilos para los grupos de formularios */
+.form-group {
+  margin-bottom: 15px; /* Margen inferior */
+}
+
+/* Estilos para las etiquetas de los campos de formulario */
+label {
+  display: block; /* Muestra la etiqueta como bloque para ocupar toda la línea */
+  margin-bottom: 5px; /* Margen inferior */
+}
+
+/* Estilos para los campos de texto, correo electrónico y el botón de enviar */
+input[type="text"],
+input[type="email"],
+.btn-submit {
+  width: 100%; /* Ancho completo */
+  padding: 10px; /* Relleno interno */
+  border: 1px solid #ccc; /* Borde con color y grosor */
+  border-radius: 4px; /* Borde redondeado */
+  box-sizing: border-box; /* Incluye el relleno y el borde en el ancho total */
+  background-color: rgba(255, 255, 255, 0.8); /* Color de fondo con transparencia */
+}
+
+/* Estilos para el botón de enviar cuando el cursor está sobre él */
+input[type="submit"]:hover {
+  background-color: #45a049; /* Cambia el color de fondo al pasar el cursor */
+}
+
   
